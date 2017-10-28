@@ -1,0 +1,40 @@
+{
+  "name": "react-editables",
+  "version": "0.0.1",
+  "description": "Editable inline content (Text, Number)",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "./node_modules/jest/bin/jest.js",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Niwat",
+    "email": "niwat.charoenloet@gmail.com"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.1",
+    "jest": "^21.2.1",
+    "react-test-renderer": "^16.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  }
+}
