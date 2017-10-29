@@ -3,6 +3,12 @@
 React-editables is a react component that makes it easy to edit different types of content (Text, Numbers for now). 
 Use-cases are collaborative apps where users may edit the content, in a controlled way.
 
+*NUMBER edition demo:*
+![Alt text](https://i.imgur.com/sYnFago.gif "Gif showing number edition")
+
+*TEXT edition demo:*
+![Alt text](https://i.imgur.com/aIoJTpA.gif "Gif showing number edition")
+
 ## Installation
 
 `npm install react-editables --save-dev`
