@@ -37,9 +37,20 @@ import { EditableText, EditableNumber } from 'react-editables'
 ### Hooks
 * **onChange**: a callback function that will be called after user finish editing.
 
+## Contributing
 
-### To-do
+Submit a PR.
+
+### Tests
+
+Tests are written with Jest and Enzyme. Run them with:
+
+``` npm test ```
+
+## To-do
 
 * Expose customization (styles)
 * EditableLink element
 * EditableTags element
+* Add more tests
+* More content types :)

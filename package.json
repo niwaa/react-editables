@@ -1,12 +1,29 @@
 {
   "name": "react-editables",
   "version": "0.0.1",
-  "description": "Editable inline content (Text, Number)",
+  "description": "React-editables makes it easy to edit different types of content (Text, Numbers, etc.)",
+  "author": {
+    "name": "Niwat Charoenloet",
+    "email": "niwa.git@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "edit",
+    "editable",
+    "text editor",
+    "number editor",
+    "inline",
+    "content editable"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niwaa/react-editables"
+  },
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^16.0.0"
   },
-  "license": "MIT",
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
@@ -16,10 +33,6 @@
     "test": "./node_modules/jest/bin/jest.js",
     "start": "webpack --watch",
     "build": "webpack"
-  },
-  "author": {
-    "name": "Niwat",
-    "email": "niwat.charoenloet@gmail.com"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
