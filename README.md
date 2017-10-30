@@ -11,7 +11,7 @@ Use-cases are collaborative apps where users may edit the content, in a controll
 
 ## Installation
 
-`npm install react-editables --save-dev`
+`npm install react-editables --save`
 
 ## Usage
 
@@ -20,13 +20,13 @@ Import the components you want to use in your app:
 import { EditableText, EditableNumber } from 'react-editables'
 ```
 
-### Editable text
+### EditableText
 
 ```javascript
 <EditableText value='some value here' placeholder='Write a description' />
 ```
 
-### Editable numbers
+### EditableNumber
 
 ```javascript
 <EditableNumber value={777} onChange={(value) => console.log(value)} />
@@ -39,6 +39,19 @@ import { EditableText, EditableNumber } from 'react-editables'
 * **value**: initial displayed value.
 * **validate**: a validator function, returning a boolean.
 * **placeholder**: a default text or number when there is not value.
+
+
+Validation function example:  Text length must be more than 30 char.
+
+```javascript
+  doValidation (value) {
+    return (value.length > 30)
+  }
+```
+
+```javascript
+<EditableText validate={this.doValidation} />
+```
 
 ### Hooks
 * **onChange**: a callback function that will be called after user finish editing.
@@ -59,4 +72,5 @@ Tests are written with Jest and Enzyme. Run them with:
 * EditableLink element
 * EditableTags element
 * Add more tests
+* Make it work on mobile iOS
 * More content types :)
